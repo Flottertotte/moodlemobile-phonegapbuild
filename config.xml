@@ -94,7 +94,6 @@
     <gap:splash src="resources/android/splash/drawable-port-xxhdpi-screen.png"    gap:platform="android" gap:qualifier="port-xxhdpi"/>
     <gap:splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png"   gap:platform="android" gap:qualifier="port-xxxhdpi"/>
 
-
     <gap:splash src="resources/ios/splash/Default-568h@2x~iphone.png"     gap:platform="ios" width="640" height="1136"/>
     <gap:splash src="resources/ios/splash/Default-667h.png"               gap:platform="ios" width="750" height="1334"/>
     <gap:splash src="resources/ios/splash/Default-736h.png"               gap:platform="ios" width="1242" height="2208"/>
@@ -121,13 +120,12 @@
     <gap:plugin name="phonegap-plugin-push" source="npm" version="1.7.0">
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
-    <gap:plugin name="https://github.com/Tunts/WebIntent" source="git"/>
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
         <param name="URL_SCHEME" value="moodlemobile" />
     </gap:plugin>
     <gap:plugin name="ionic-plugin-keyboard" source="npm" />
     <gap:plugin name="cordova-plugin-local-notifications-mm" source="npm" />
-
+	<gap:plugin name="ch.ti8m.documenthandler" version="0.2.1" source="npm" />
     <gap:plugin name="cordova-plugin-zip" source="npm" />
 
     <gap:config-file platform="android" parent="/manifest">
