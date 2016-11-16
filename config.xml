@@ -125,7 +125,7 @@
     </gap:plugin>
     <gap:plugin name="ionic-plugin-keyboard" source="npm" />
     <gap:plugin name="cordova-plugin-local-notifications-mm" source="npm" />
-	<gap:plugin name="https://github.com/ti8m/DocumentHandler/tree/929edcc3862a26356d414a3fdae0f1a2a5ee8097"  source="git" />
+	<gap:plugin spec="git@github.com:ti8mag/DocumentHandler.git" source="git" />
     <gap:plugin name="cordova-plugin-zip" source="npm" />
 
     <gap:config-file platform="android" parent="/manifest">
